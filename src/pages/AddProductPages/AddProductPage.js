@@ -5,7 +5,7 @@ import axios from 'axios'
 import './AddProduct.css'
 import { useSelector, useDispatch } from 'react-redux'
 import { createReactEditorJS } from 'react-editor-js'
-import CheckList from '@editorjs/checklist'
+// import CheckList from '@editorjs/checklist'
 import { EDITOR_JS_TOOLS } from '../../tools'
 import { Editor } from "react-draft-wysiwyg";
 import {EditorState} from "draft-js"
