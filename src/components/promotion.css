@@ -1,0 +1,142 @@
+.row_tiki{
+	max-width: 16.6%;
+}
+.promotion{
+	margin-right: 48.5px;
+	margin-left: 51px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: white;
+}
+.promotion_title{
+	display: flex;
+}
+.promotion_top{
+	padding: 16px;
+	display: flex;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.count_time{
+	position: absolute;
+	right: 80px;
+}
+.count_time span{
+	background-color: rgb(255, 66, 78);
+	padding: 3px;
+	color: white;
+	font-weight: 600;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.count_time img{
+	width: 28px;
+	height: 28px;
+}
+.price_shock_1{
+	flex-wrap: nowrap;
+	overflow: hidden;
+	margin-left: 15px;
+}
+
+.price_shocks img{
+	max-width: 90%;
+}
+
+.price_shocks p{
+	margin-bottom: 0px;
+}
+.price_shocks a a{
+	display: flex;
+}
+.price_shock img{
+	width:200px;
+	height: 180px;
+}
+.price_shock:hover{
+	box-shadow: rgb(0 0 0 / 10%) 0px 0px 20px;
+    z-index: 1;
+}
+.price_shock{
+	padding: 0px;
+	transition: transform 1s linear;
+}
+.icon_price_shock{
+	z-index: 999;
+	position: relative;
+	left: 15px;
+	top: 60px;
+	width: 32px !important;
+	height: 56px !important;
+	display: block;
+	cursor: pointer;
+	opacity: 0.7;
+}
+.icon_price_shock img{
+	width: 32px;
+}
+.icon_price_shock:hover{
+	opacity: 1;
+}
+.percent_reduction{
+	margin-left: 10px;
+	background-color: rgb(255, 240, 241);
+	color:rgb(255, 66, 78);
+	border: 1px solid rgb(255, 66, 78);
+	padding-left: 2px;
+	padding-right: 3px;
+	line-height: 14px;
+    font-size: 12px;
+    font-weight: 400;
+    height: 18px;
+    margin-top: 5px;
+}
+.price_percent{
+	margin-top: 10px;
+}
+.price_d{
+	font-weight: 600;
+	color: rgb(255, 66, 78);
+	font-size: 19px;
+}
+.sold{
+	background-color: rgb(255, 170, 175);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    width: 90%;
+    height: 20px;
+}
+.sold div{
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: rgb(255, 66, 78);
+    height: 20px;
+    border-radius: 10px;
+    min-width: 20px;
+}
+.sold span{
+	font-size: 11px;
+    line-height: 16px;
+    padding: 0px 0px 0px 6px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+.sold img{
+	z-index: 10;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    bottom: 4px;
+    left: 5px;
+}

@@ -1,0 +1,114 @@
+.suggestion_today{
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 15px;
+}
+.suggestion_title{
+	background-color: white;
+	padding: 10px;
+}
+.suggestion_header{
+	display: flex;
+	margin-top: 5px;
+}
+.suggestion_header_item{
+	width: 12.6%;
+	background-color: white;
+	margin-right: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.suggestion_header_item_1 img{
+	width: 48px;
+	height: 48px;
+}
+.suggestion_header_item_1{
+	text-align: center;
+}
+.suggestion_header_item_1 p{
+	font-size: 90%;
+}
+.suggestion_list{
+	display: flex;
+	background-color: white;
+	margin-top: 10px;
+	flex-wrap: wrap;
+}
+.suggestion_list_item{
+	width: 16.666%;
+	height: 300px;
+}
+.suggestion_list_item_1 div{
+	display: flex;
+	margin-left: 10px;
+}
+.suggestion_list_item:hover{
+	box-shadow: rgb(0 0 0 / 10%) 0px 0px 20px;
+    z-index: 1;
+}
+.suggestion_list_item_1 img{
+	width: 182px;
+	height: 182px;
+	margin-left: 10px;
+}
+.suggestion_list_name{
+	font-size: 90%;
+	color: black;
+	margin-bottom: 0px;
+	padding-left: 10px;
+}
+.suggestion_list_evaluate i{
+	color: rgb(253, 216, 54);
+	font-size: 60%;
+	padding-left: 4px;
+	margin-top: 5px;
+
+}
+.suggestion_list_evaluate p{
+	font-size: 75%;
+	color: black;
+	margin-left: 10px;
+}
+.suggestion_list_evaluate{
+	height: 25px;
+}
+.suggestion_list_price{
+	color:rgb(255, 66, 78);
+	font-size: 110%;
+	font-weight: 600;
+	position: relative;
+	top: -5px;
+}
+.suggestion_list_reduce{
+	font-size: 60%;
+	border: 1px solid rgb(255, 66, 78);
+	color: rgb(255, 66, 78);
+	background-color: rgb(255, 240, 241);
+	margin-left: 20px;
+	text-align: center;
+	height: 18px;
+}
+.suggestion_fixed{
+	width: 100%;
+	z-index: 99;
+	margin-right: 30px;
+	background-color: rgb(239, 239, 239);
+}
+.suggestion_seemore{
+	text-align: center;
+	background-color: white;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.suggestion_seemore a{
+	font-size: 90%;
+	font-weight: 500;
+	color: rgb(13, 92, 182);
+	padding: 6px 60px;
+	border-radius: 4px;
+	border: 1px solid rgb(13, 92, 182);
+}
+.suggestion_seemore a:hover{
+	background-color:rgb(13, 92, 182) ;
+	color: white;
+}

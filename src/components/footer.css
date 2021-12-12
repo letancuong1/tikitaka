@@ -1,0 +1,60 @@
+.footer{
+	background-color: white;
+	margin-top: 15px;
+}
+.footer_1{
+	display: flex;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.footer_1_1{
+	width: 20%;
+}
+.footer_1_1 a{
+	font-size: 12px;
+    line-height: 16px;
+    font-weight: normal;
+    color: rgb(128, 128, 137);
+}
+.footer_1_1 a:hover{
+	text-decoration: underline;
+}
+.footer_a{
+	padding-left: 45px;
+
+}
+.footer_1_1 div{
+	padding: 15px;
+}
+.footer_1_1 div div{
+	display: flex;
+	padding: 0px;
+	flex-wrap: wrap;
+}
+.footer_1_1 div div img{
+	height: 32px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+.download_app div{
+	width: 50%;
+}
+.downdload_qr{
+	width: 40%;
+	height: 80px !important;
+}
+.footer_adress{
+	padding-bottom: 20px;
+}
+.footer_adress div{
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.footer_adress div a{
+	font-size: 12px;
+    line-height: 16px;
+    font-weight: normal;
+    color: rgb(128, 128, 137);
+}
+.footer_adress div a:hover{
+	text-decoration: underline;
+}

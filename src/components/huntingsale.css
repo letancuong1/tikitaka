@@ -1,0 +1,47 @@
+.hunting_sale{
+	display: flex;
+	margin-right: 41.5px;
+	margin-left: 47.5px;
+	margin-top: 20px;
+
+}
+.hunting_sale div{
+	padding: 0px;
+	display: flex;
+
+}
+.hunting_sale div img{
+	height: 100%;
+	width: 97%;
+	text-align: center;
+	margin: 0 auto;
+}
+.icon_sales div{
+	display: flex;
+	
+	padding: 15px;
+	padding-bottom: 0px;
+}
+.icon_sales{
+	margin-left: 46px;
+	margin-right: 40px;
+	margin-top: 20px;
+	background-color: white;
+}
+.icon_sales a img{
+	width: 48px;
+	height: 48px;
+}
+.icon_sales a{
+	width: 12%;
+}
+.icon_sales a p{
+	width: 70%;
+	font-size: 90%;
+	color: black;
+	margin-top: 5px;
+}
+.icon_sale{
+	position: relative;
+	left: 40px;
+}

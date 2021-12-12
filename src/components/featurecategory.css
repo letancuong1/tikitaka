@@ -1,0 +1,101 @@
+.feature_category div {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 20px;
+	background-color: white;
+
+}
+.feature_category div div{
+	padding: 0px;
+	margin: 0px;
+}
+.feature_category div div a img{
+	width: 48px;
+	height: 48px;
+}
+.feature_category div div a{
+	width: 10%;
+	position: relative;
+	left: 30px;
+
+}
+.feature_category div div a p{
+	width: 80%;
+	font-size: 90%;
+	color: black;
+	margin-top: 5px;
+}
+.header_feature{
+	margin-left: 27px;
+	font-weight: 500;
+}
+.shopping_trends{
+	background-color: white;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.shopping_trends_header_title{
+	display: flex;
+}
+.shopping_trends_header_title img{
+	width: 24px;
+	height: 24px;
+}
+.shopping_trends_header{
+	display: flex;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.shopping_trends_header_seemore{
+	margin-left: 900px;
+	font-size: 110%;
+	font-weight: 600;
+	color: blue;
+}
+.shopping_trends_list{
+	display: flex;
+}
+.shopping_trends_item_1{
+	padding: 13px;
+}
+.shopping_trends_list{
+	padding: 0px;
+}
+.shopping_trends_item{
+	padding: 0px;
+}
+.shopping_trends_item_2{
+	border: 1px solid rgba(0, 0, 0, 0.07);
+	padding: 10px;
+}
+.shopping_trends_item_2 img{
+	width: 50%;
+}
+.shopping_trends_item_2 p{
+	padding: 5px;
+	background-color: rgb(240, 248, 255);
+	color: rgb(1, 127, 255);
+	font-size: 12px;
+	line-height: 16px;
+	cursor: pointer;
+	font-weight: 500;
+	width:40%;
+	text-align: center;
+}
+.feature_2{
+	display: flex;
+	margin-left: 40px;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+.feature_2 div{
+	padding: 0px;
+}
+.feature_2 div img{
+	border-radius: 15px;
+}
