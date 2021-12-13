@@ -9,6 +9,7 @@ import Seller from './pages/SellerPages/SellerPage'
 import Sellerdetails from './pages/SellerPages/Sellerdetails'
 import AddCategory from './pages/AddCategoryPages/AddCategoryPage'
 import ProductCategoryPages from './pages/ProductCategoryPages/productcategorypage'
+import Skill from './pages/13SkillPage/13skill'
 const Routes =[
 {
 	path:'/login',
@@ -59,6 +60,11 @@ const Routes =[
 	path:'/:name/category',
 	exact:false,
 	main:()=><ProductCategoryPages/>
+},
+{
+	path:'/skill',
+	exact:false,
+	main:()=><Skill/>
 },
 ];
 export default Routes;
