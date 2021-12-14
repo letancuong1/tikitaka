@@ -1,11 +1,22 @@
 import {useState} from 'react'
+import axios from 'axios'
+import { useSelector, useDispatch } from 'react-redux'
+import { imgaction } from './../../redux/redux'
+import { imgskill } from './../../redux/redux'
 export default function Skill() {
-	const [path,setpath]=useState()
+	const [img,setimg]=useState(0)
 	const change=(e)=>{
-		console.log(e.target.files[0].name)
+		var a=(e.target.files[0])
+		var b=document.querySelector(".linkTo")
+		setimg(a)
+		var blob1=new Blob([a],{type:"image/png"})
+		var objUrl=URL.createObjectURL(blob1)
+		b.href=objUrl
+		console.log(objUrl)
+		b.innerHTML=objUrl
 	}
-	return <div class="container">
-		<input onChange={e=>setpath(e.target.files[0].name)} type="file"/>
-		<input value={path?window.location.origin+"/"+`${path}`:""} type="text"/>
+  return <div class="container">
+		<input onChange={change} type="file"/>
+		<a style={{marginLeft:"300px"}} class="linkTo" href="./BÁNH RĂNG TRỤ.jpg">chưa có link</a>
 	</div>
 }
